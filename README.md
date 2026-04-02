@@ -22,7 +22,7 @@ epub-dl --version
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/hadenhiles/epub_pub_generator.git
+git clone https://github.com/HadenHiles/epub_pub_generator.git
 cd epub_pub_generator
 
 # 2. Install dependencies

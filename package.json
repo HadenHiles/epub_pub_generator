@@ -1,6 +1,6 @@
 {
     "name": "epub-dl",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "CLI tool to download and generate epub files from epub.pub listing pages",
     "type": "module",
     "main": "src/index.js",
@@ -24,6 +24,14 @@
         "generator"
     ],
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HadenHiles/epub_pub_generator.git"
+    },
+    "homepage": "https://github.com/HadenHiles/epub_pub_generator#readme",
+    "bugs": {
+        "url": "https://github.com/HadenHiles/epub_pub_generator/issues"
+    },
     "engines": {
         "node": ">=18.0.0"
     },
