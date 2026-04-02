@@ -1,0 +1,35 @@
+{
+    "name": "epub-dl",
+    "version": "1.0.0",
+    "description": "CLI tool to download and generate epub files from epub.pub listing pages",
+    "type": "module",
+    "main": "src/index.js",
+    "exports": {
+        ".": "./src/index.js"
+    },
+    "files": [
+        "bin",
+        "src",
+        "README.md"
+    ],
+    "bin": {
+        "epub-dl": "./bin/epub-dl.js"
+    },
+    "keywords": [
+        "epub",
+        "epub.pub",
+        "ebook",
+        "cli",
+        "downloader",
+        "generator"
+    ],
+    "license": "MIT",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "commander": "^12.1.0",
+        "got-scraping": "^4.0.4",
+        "jszip": "^3.10.1"
+    }
+}
