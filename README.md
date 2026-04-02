@@ -4,14 +4,40 @@ CLI tool and Node.js library to download books from [epub.pub](https://www.epub.
 
 ## Install
 
+### From npm (recommended)
+
+Requires Node.js ≥ 18.
+
 ```bash
-npm install -g epub-dl@latest
+npm install -g epub-dl
 ```
 
-If you have not published the package to npm yet, install the packed tarball or local folder instead:
+Verify the install:
 
 ```bash
-npm install -g ./epub-dl-1.0.0.tgz
+epub-dl --version
+```
+
+### From source
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/hadenhiles/epub_pub_generator.git
+cd epub_pub_generator
+
+# 2. Install dependencies
+npm install
+
+# 3. Link the binary globally so `epub-dl` is available anywhere
+npm link
+```
+
+To unlink later: `npm unlink -g epub-dl`
+
+You can also run without linking by invoking Node directly from the repo root:
+
+```bash
+node bin/epub-dl.js <url> [options]
 ```
 
 ## CLI usage
